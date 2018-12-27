@@ -4,7 +4,7 @@ var hostname = os.hostname();
 var app = express()
 
 app.get('/', function(req, res) {
-  res.send('Hello world from integration team from Nexright!' + hostname + '! Your app is up and running in a cluster!\n')
+  res.send('Hello world from integration team from Nexright-This is a Test App!' + hostname + '! Your app is up and running in a cluster!\n')
 })
 app.listen(8080, function() {
   console.log('Sample app is listening on port 8080.')
